@@ -19,4 +19,4 @@ if __name__ == '__main__':
     scraper = StreamScraper(user_agent=custom_user_agent, brave_path=custom_brave_path)
     
     #
-    scraper.fetch_page_content(url)
+    print(scraper.collect_league_list(url))
